@@ -17,7 +17,7 @@ public class App
        try {
     	   BookDao bd = new BookDao();
     	   Connection con= 
-    			   DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop","root","9841386924");
+    			   DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop","root","password");
     	   Statement stmt =  con.createStatement();
     	   int n;
     	   do {
